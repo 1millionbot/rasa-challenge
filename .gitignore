@@ -143,6 +143,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+lucentia.p8.txt
 
 # Spyder project settings
 .spyderproject
