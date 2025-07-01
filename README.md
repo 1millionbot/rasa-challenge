@@ -5,11 +5,6 @@
 2. conda activate rasa3.5
 3. pip install rasa==3.5.4
 4. pip install pandas==2.0.1
-5. pip install pysentimiento
-6. pip install transformers
-7. pip install torch
-8. python -c "from transformers import AutoTokenizer; AutoTokenizer.from_pretrained('pysentimiento/roberta-es-sentiment')"
-9. Unzip fine_tuned_model.zip in the rasa directory, i.e. the folder named fine_tuned_model should be in the rasa root directory for spanish
 
 # To train Rasa
 Inside each rasa directory (en and es) run: "rasa train"
