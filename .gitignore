@@ -1,8 +1,11 @@
+# RASA
+.rasa
+models/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
-.rasa
 
 # C extensions
 *.so
