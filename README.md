@@ -31,9 +31,6 @@ To start rasa actions run: Inside each rasa directory
 
 rasa run actions --port 5055
 
-# To run test your trained model in the webchat (port 5005)
-Go to the following url: https://webchats-rasa-599106276636.europe-west1.run.app/
-
 # To start rasa shell in cmd:
 
 rasa shell --model model --credentials ./credentials.yml --endpoints ./endpoints.yml --debug --cors "*" --enable-api
